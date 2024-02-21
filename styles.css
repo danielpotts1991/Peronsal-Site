@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+
+background-image: url(img/Namibia/230309\ -\ dpotts\ -\ Namibia\ -\ 120.jpg);
+background-size: cover;
+min-height: 60vh;
+background-position-y:15%;
+background-color: bisque;
+
+/* background: linear-gradient(rgba(10, 54, 228, 0.7),rgba(255, 255, 255, 0.3)),url(img/Namibia/230307\ -\ dpotts\ -\ Namibia\ -\ 316-Edit.jpg); */
+
+}
+
+.blank{
+
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    background-color: grey;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.blank2 *{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.body1{
+background-image: url(img/Namibia/230308\ -\ dpotts\ -\ Namibia\ -\ 1655.jpg);
+background-size: cover;
+min-height: 100vh;
+background-color: bisque;
+
+}
+
+.body2{
+    background-image: url(img/Namibia/230307\ -\ dpotts\ -\ Namibia\ -\ 316-Edit.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+
+/* Navbar  */
+
+.navbar{
+    justify-content: right;
+}
+
+.white{
+    display: flex;
+    min-height: 30vh;
+}
+
+
+.gallery img{
+
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+    
+    cursor: pointer;
+}
+
+.black{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
