@@ -1,76 +1,140 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
 
-
-.header{
-
-background-image: url(img/Namibia/230309\ -\ dpotts\ -\ Namibia\ -\ 120.jpg);
-background-size: cover;
-min-height: 60vh;
-background-position-y:15%;
-background-color: bisque;
-
-/* background: linear-gradient(rgba(10, 54, 228, 0.7),rgba(255, 255, 255, 0.3)),url(img/Namibia/230307\ -\ dpotts\ -\ Namibia\ -\ 316-Edit.jpg); */
-
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-.blank{
-
+.navbar {
     display: flex;
-    justify-content: center;
-    height: 20vh;
-    background-color: grey;
-    color: whitesmoke;
-    font-family: cursive;
-}
-
-.blank2 *{
-    display: flex;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.body1{
-background-image: url(img/Namibia/230308\ -\ dpotts\ -\ Namibia\ -\ 1655.jpg);
-background-size: cover;
-min-height: 100vh;
-background-color: bisque;
-
-}
-
-.body2{
-    background-image: url(img/Namibia/230307\ -\ dpotts\ -\ Namibia\ -\ 316-Edit.jpg);
+    position: sticky;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.815);
+    background-blend-mode: darken;
     background-size: cover;
-    min-height: 100vh;
-    background-color: bisque;
+    color: white;
+    padding: 10px 20px;
 }
 
-
-/* Navbar  */
-
-.navbar{
-    justify-content: right;
-}
-
-.white{
+.nav-list {
     display: flex;
-    min-height: 30vh;
+    list-style: none;
 }
 
+.nav-list li {
+    margin-right: 20px;
+}
 
-.gallery img{
+.nav-list li:last-child {
+    margin-right: 0;
+}
 
-    padding: 20px;
-    width: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
-    
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
+}
+
+.rightNav {
+    text-align: right;
+}
+
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.black{
+.btn:hover {
+    background-color: #000;
+    /* Change the background color on hover */
+    color: #ffd700;
+}
+
+
+.container{
+    border:2px solid black;
     display: flex;
-    height: 100vh;
+
+}
+
+.opening{
+
+    min-height: 50vh;
+    align-items: bottom;
+    width: 100%;
+
+}
+
+.opening p{
+    align-self:flex-end;
+}
+
+.spacer{
+    min-height: 10vh;
+    border: 2px solid black;
+    width: 100%;
+    margin: 0px;
+}
+
+.grey{
+    background-color: rgb(191, 190, 190);
+}
+.white{
+    background-color: antiquewhite;
+}
+.black{
     background-color: black;
+}
+
+.large{
+    min-height: 40vh;
+}
+
+.larger{
+    min-height: 60vh;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    color: white;
+
+
+}
+
+.box{
+    border: 2px solid red;
+    width: 25%;
+    height:auto;
+
+}
+
+.largeText{
+    font-weight: bold;
+    fond-size: 30px;
 }
