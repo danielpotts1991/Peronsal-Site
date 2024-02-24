@@ -101,7 +101,7 @@ header {
     padding: 5px;
 }
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 600px), (max-width: 3.5in) {
     .galRow {
         flex-direction: column;
     }
@@ -109,6 +109,7 @@ header {
         width: 100%;
     }
     .masthead {
-        min-height: 60vh;
+        min-height: 50vh;
     }
 }
+
