@@ -1,9 +1,12 @@
 /* Nav Bar  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 *{
     font-family: "Montserrat", sans-serif;
 }
+
+
 
 li, a{
     font-family: "Montserrat", sans-serif;
@@ -76,4 +79,24 @@ header {
 .spacerW {
     padding: 1%;
     height: 50vh;
+}
+
+
+/* Gallery  */
+
+.bwGal {
+    background-color: #212226;
+}
+.galCol {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+
+.galRow {
+    display: flex;
+}
+
+.galCol img{
+    padding: 5px;
 }
