@@ -100,3 +100,13 @@ header {
 .galCol img{
     padding: 5px;
 }
+
+@media  screen and (max-width: 600px) {
+    .galRow {
+        flex-direction: column;
+    }
+    .galCol {
+        width: 100%;
+
+    }
+}
