@@ -1,140 +1,72 @@
-* {
+/* Nav Bar  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
+    background-color: #212226;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
-.navbar {
+header {
     display: flex;
-    position: sticky;
-    min-height: 10vh;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.815);
-    background-blend-mode: darken;
-    background-size: cover;
-    color: white;
-    padding: 10px 20px;
+    padding: 30px 10%;
 }
 
-.nav-list {
-    display: flex;
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    max-height: 5vh;
+}
+
+.nav_links {
     list-style: none;
 }
 
-.nav-list li {
-    margin-right: 20px;
+.nav_links li {
+    display:inline-block;
+    padding: 0px 20px;
 }
 
-.nav-list li:last-child {
-    margin-right: 0;
+.nav_links li a:hover {
+    color: #0088a9;
 }
 
-.nav-list li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav-list li a:hover {
-    color: #ffd700;
-    /* Change the color on hover */
-}
-
-.rightNav {
-    text-align: right;
-}
-
-#search {
-    padding: 8px;
-    font-size: 16px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-}
-
-.btn {
-    background-color: #ffd700;
-    color: #000;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: all .3s ease 0s;
 }
 
-.btn:hover {
-    background-color: #000;
-    /* Change the background color on hover */
-    color: #ffd700;
+button:hover {
+    background-color: rgba(0,136,169,0.8)
 }
 
+/* Mast Head  */
 
-.container{
-    border:2px solid black;
-    display: flex;
-
-}
-
-.opening{
-
-    min-height: 50vh;
-    align-items: bottom;
-    width: 100%;
-
-}
-
-.opening p{
-    align-self:flex-end;
-}
-
-.spacer{
-    min-height: 10vh;
-    border: 2px solid black;
-    width: 100%;
-    margin: 0px;
-}
-
-.grey{
-    background-color: rgb(191, 190, 190);
-}
-.white{
-    background-color: antiquewhite;
-}
-.black{
-    background-color: black;
-}
-
-.large{
-    min-height: 40vh;
-}
-
-.larger{
+.masthead {
+    background-image: url(img/N15.jpg);
+    background-size: cover;
     min-height: 60vh;
+    background-position-y: 30%;
 }
 
-.gallery{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
-    color: white;
 
-
-}
-
-.box{
-    border: 2px solid red;
-    width: 25%;
-    height:auto;
-
-}
-
-.largeText{
-    font-weight: bold;
-    fond-size: 30px;
+h1 {
+    color:#edf0f1;
 }
