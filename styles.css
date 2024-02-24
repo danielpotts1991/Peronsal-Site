@@ -107,6 +107,8 @@ header {
     }
     .galCol {
         width: 100%;
-
+    }
+    .masthead {
+        min-height: 60vh;
     }
 }
