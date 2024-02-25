@@ -109,20 +109,6 @@ header {
     padding: 5px;
 }
 
-@media  screen and (max-width: 600px), (max-width: 3.5in) {
-    .galRow {
-        flex-direction: column;
-    }
-    .galCol {
-        width: 100%;
-    }
-    .masthead {
-        min-height: 50vh;
-    }
-    .mastheadE {
-        min-height: 50vh;
-    }
-}
 
 
 /* Masthead Ecuador  */
@@ -140,4 +126,21 @@ header {
 
 .vidContainer{
     height: 70vh;
+}
+
+
+
+@media  screen and (max-width: 600px), (max-width: 3.5in) {
+    .galRow {
+        flex-direction: column;
+    }
+    .galCol {
+        width: 100%;
+    }
+    .masthead {
+        min-height: 50vh;
+    }
+    .mastheadE {
+        min-height: 30vh;
+    }
 }
